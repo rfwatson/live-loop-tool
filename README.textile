@@ -13,6 +13,8 @@ h2. Requirements
 
 * a MIDI keyboard plugged in to make the most of it.
 
+* OSX (unless you want to change the GUI stuff to be cross-platform..;)
+
 h2. Installation
 
 * Copy the files in @classes/@ into your SC class load path. Usually this is something like @~/Application\ Support/SuperCollider/Extensions/@
