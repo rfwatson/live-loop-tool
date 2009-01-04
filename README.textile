@@ -1,8 +1,6 @@
 h1. Live-loop-tool
 
-The best way to understand, is to watch it in action.
-
-h3. "Watch on YouTube(1:01 minutes)":http://uk.youtube.com/watch?v=ekBqPgVNk38
+h3. What does it do? "Watch on YouTube(1:01 minutes)":http://uk.youtube.com/watch?v=ekBqPgVNk38
 
 
 Live-loop-tool is not released as a piece of stable, finished software, more as an interesting piece of code. 
