@@ -9,7 +9,9 @@ Live-loop-tool is not released as a piece of stable, finished software, more as 
 
 h2. Requirements
 
-You need a MIDI keyboard plugged in to make the most of it.
+* "SuperCollider":http://supercollider.sourceforge.net
+
+* a MIDI keyboard plugged in to make the most of it.
 
 h2. Installation
 
