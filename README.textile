@@ -1,0 +1,38 @@
+h1. Live-loop-tool
+
+The best way to understand, is to watch it in action.
+
+h3. "Watch on YouTube(1:01 minutes)":http://uk.youtube.com/watch?v=ekBqPgVNk38
+
+
+Live-loop-tool is not released as a piece of stable, finished software, more as an interesting piece of code. 
+
+h2. Requirements
+
+You need a MIDI keyboard plugged in to make the most of it.
+
+h2. Installation
+
+* Copy the files in @classes/@ into your SC class load path. Usually this is something like @~/Application\ Support/SuperCollider/Extensions/@
+
+* In SuperCollider, open @start-here.rtf@
+
+* Follow the instructions in that file
+
+bq. *There's been a minimum of effort gone into making it easy to install or stable to operate! Use at your own risk.*
+
+h2. Usage
+
+There are three parts of the system.
+
+* a buffer manager used for loading and organising drum hits
+
+* a probabilistic drum sequencer used for playing them
+
+* a live effects unit which does some cool stuff to the output
+
+You should be able to figure out how it all works. Perhaps at some point I'll write some more instructions..!
+
+h2. Contact me
+
+Via "github":http://github.com/rfwatson

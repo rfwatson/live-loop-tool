@@ -1,0 +1,1174 @@
+<song>
+    <currentPattern>0</currentPattern>
+    <pattern name="unnamed1" number="0">
+        <channel number="0"/>
+        <channel number="1">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="3" probability="0.625"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="12" probability="0.8125"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="6" probability="0.375"/>
+            <hit velocity="1.0" number="10" probability="0.375"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3"/>
+        <channel number="4">
+            <hit velocity="1.0" number="1" probability="0.375"/>
+            <hit velocity="1.0" number="7" probability="0.625"/>
+            <hit velocity="1.0" number="10" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.625"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="3" probability="0.625"/>
+            <hit velocity="1.0" number="6" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.875"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="2" probability="0.25"/>
+            <hit velocity="1.0" number="6" probability="0.625"/>
+            <hit velocity="1.0" number="10" probability="0.5625"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+        </channel>
+        <songprobability bar="0">1</songprobability>
+        <songprobability bar="1">1</songprobability>
+        <songprobability bar="2">1</songprobability>
+        <songprobability bar="3">1</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed2" number="1">
+        <channel number="0"/>
+        <channel number="1">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="3" probability="0.625"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="12" probability="0.8125"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="6" probability="0.375"/>
+            <hit velocity="1.0" number="10" probability="0.375"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3"/>
+        <channel number="4">
+            <hit velocity="1.0" number="1" probability="0.375"/>
+            <hit velocity="1.0" number="7" probability="0.625"/>
+            <hit velocity="1.0" number="10" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.625"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="3" probability="0.625"/>
+            <hit velocity="1.0" number="6" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.875"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.25"/>
+            <hit velocity="1.0" number="3" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.3125"/>
+            <hit velocity="1.0" number="11" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">1</songprobability>
+        <songprobability bar="1">1</songprobability>
+        <songprobability bar="2">1</songprobability>
+        <songprobability bar="3">1</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed3" number="2">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="3" probability="0.625"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="12" probability="0.8125"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="6" probability="0.375"/>
+            <hit velocity="1.0" number="10" probability="0.375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3"/>
+        <channel number="4">
+            <hit velocity="1.0" number="0" probability="0.6875"/>
+            <hit velocity="1.0" number="8" probability="0.625"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="1" probability="1"/>
+            <hit velocity="1.0" number="9" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.25"/>
+            <hit velocity="1.0" number="3" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.3125"/>
+            <hit velocity="1.0" number="11" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">1</songprobability>
+        <songprobability bar="5">1</songprobability>
+        <songprobability bar="6">1</songprobability>
+        <songprobability bar="7">1</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed4" number="3">
+        <channel number="0">
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="11" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="3" probability="0.625"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="12" probability="0.8125"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="6" probability="0.375"/>
+            <hit velocity="1.0" number="10" probability="0.375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3"/>
+        <channel number="4">
+            <hit velocity="1.0" number="0" probability="0.6875"/>
+            <hit velocity="1.0" number="8" probability="0.625"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="1" probability="0.625"/>
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="5" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="0.5"/>
+            <hit velocity="1.0" number="7" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.5"/>
+            <hit velocity="1.0" number="10" probability="0.5"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="13" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.25"/>
+            <hit velocity="1.0" number="3" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.3125"/>
+            <hit velocity="1.0" number="11" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">1</songprobability>
+        <songprobability bar="5">1</songprobability>
+        <songprobability bar="6">1</songprobability>
+        <songprobability bar="7">1</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed5" number="4">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="1" probability="0.375"/>
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="5" probability="0.375"/>
+            <hit velocity="1.0" number="7" probability="0.3125"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="13" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.125"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="0" probability="0.5625"/>
+            <hit velocity="1.0" number="1" probability="0.625"/>
+            <hit velocity="1.0" number="2" probability="0.625"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.8125"/>
+            <hit velocity="1.0" number="10" probability="0.5625"/>
+            <hit velocity="1.0" number="11" probability="0.5625"/>
+            <hit velocity="1.0" number="12" probability="0.6875"/>
+        </channel>
+        <channel number="3">
+            <hit velocity="1.0" number="2" probability="0.6875"/>
+            <hit velocity="1.0" number="6" probability="0.6875"/>
+            <hit velocity="1.0" number="10" probability="0.5625"/>
+            <hit velocity="1.0" number="14" probability="0.75"/>
+        </channel>
+        <channel number="4">
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="6" probability="0.375"/>
+            <hit velocity="1.0" number="10" probability="0.3125"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+        </channel>
+        <channel number="5"/>
+        <channel number="6"/>
+        <channel number="7"/>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0.53968253731728</songprobability>
+        <songprobability bar="5">0.54761904478073</songprobability>
+        <songprobability bar="6">0.82539682090282</songprobability>
+        <songprobability bar="7">1</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed6" number="5">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="2" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="6" probability="0.4375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.5625"/>
+            <hit velocity="1.0" number="11" probability="0.5625"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3">
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <channel number="4">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="1" probability="0.625"/>
+            <hit velocity="1.0" number="2" probability="0.9375"/>
+            <hit velocity="1.0" number="3" probability="0.3125"/>
+            <hit velocity="1.0" number="5" probability="0.6875"/>
+            <hit velocity="1.0" number="6" probability="0.125"/>
+            <hit velocity="1.0" number="7" probability="0.5625"/>
+            <hit velocity="1.0" number="9" probability="0.25"/>
+            <hit velocity="1.0" number="10" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.25"/>
+            <hit velocity="1.0" number="13" probability="0.75"/>
+            <hit velocity="1.0" number="14" probability="0.3125"/>
+            <hit velocity="1.0" number="15" probability="0.75"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">1</songprobability>
+        <songprobability bar="9">1</songprobability>
+        <songprobability bar="10">1</songprobability>
+        <songprobability bar="11">1</songprobability>
+        <songprobability bar="12">1</songprobability>
+        <songprobability bar="13">1</songprobability>
+        <songprobability bar="14">1</songprobability>
+        <songprobability bar="15">1</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed7" number="6">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="2" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="6" probability="0.4375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="0" probability="0.6875"/>
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="0.375"/>
+            <hit velocity="1.0" number="5" probability="0.375"/>
+            <hit velocity="1.0" number="6" probability="0.375"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.5625"/>
+            <hit velocity="1.0" number="10" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5625"/>
+            <hit velocity="1.0" number="12" probability="0.625"/>
+            <hit velocity="1.0" number="13" probability="0.5625"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+            <hit velocity="1.0" number="15" probability="0.5625"/>
+        </channel>
+        <channel number="3">
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <channel number="4">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="1" probability="0.625"/>
+            <hit velocity="1.0" number="2" probability="0.9375"/>
+            <hit velocity="1.0" number="3" probability="0.3125"/>
+            <hit velocity="1.0" number="5" probability="0.6875"/>
+            <hit velocity="1.0" number="6" probability="0.125"/>
+            <hit velocity="1.0" number="7" probability="0.5625"/>
+            <hit velocity="1.0" number="9" probability="0.25"/>
+            <hit velocity="1.0" number="10" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.25"/>
+            <hit velocity="1.0" number="13" probability="0.75"/>
+            <hit velocity="1.0" number="14" probability="0.3125"/>
+            <hit velocity="1.0" number="15" probability="0.75"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">1</songprobability>
+        <songprobability bar="9">1</songprobability>
+        <songprobability bar="10">1</songprobability>
+        <songprobability bar="11">1</songprobability>
+        <songprobability bar="12">1</songprobability>
+        <songprobability bar="13">1</songprobability>
+        <songprobability bar="14">1</songprobability>
+        <songprobability bar="15">1</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed8" number="7">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="2" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="6" probability="0.4375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="0" probability="0.6875"/>
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="0.375"/>
+            <hit velocity="1.0" number="5" probability="0.375"/>
+            <hit velocity="1.0" number="6" probability="0.375"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.5625"/>
+            <hit velocity="1.0" number="10" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5625"/>
+            <hit velocity="1.0" number="12" probability="0.625"/>
+            <hit velocity="1.0" number="13" probability="0.5625"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+            <hit velocity="1.0" number="15" probability="0.5625"/>
+        </channel>
+        <channel number="3">
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <channel number="4">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="1" probability="0.625"/>
+            <hit velocity="1.0" number="2" probability="0.9375"/>
+            <hit velocity="1.0" number="3" probability="0.3125"/>
+            <hit velocity="1.0" number="5" probability="0.6875"/>
+            <hit velocity="1.0" number="6" probability="0.125"/>
+            <hit velocity="1.0" number="7" probability="0.5625"/>
+            <hit velocity="1.0" number="9" probability="0.25"/>
+            <hit velocity="1.0" number="10" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.25"/>
+            <hit velocity="1.0" number="13" probability="0.75"/>
+            <hit velocity="1.0" number="14" probability="0.3125"/>
+            <hit velocity="1.0" number="15" probability="0.75"/>
+        </channel>
+        <channel number="6">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="4" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="0.5"/>
+            <hit velocity="1.0" number="12" probability="0.375"/>
+        </channel>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">1</songprobability>
+        <songprobability bar="17">1</songprobability>
+        <songprobability bar="18">1</songprobability>
+        <songprobability bar="19">1</songprobability>
+        <songprobability bar="20">1</songprobability>
+        <songprobability bar="21">1</songprobability>
+        <songprobability bar="22">1</songprobability>
+        <songprobability bar="23">1</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed9" number="8">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="0" probability="0.5625"/>
+            <hit velocity="1.0" number="1" probability="0.5625"/>
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="3" probability="0.5625"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="5" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="0.5625"/>
+            <hit velocity="1.0" number="7" probability="0.5"/>
+            <hit velocity="1.0" number="8" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.4375"/>
+            <hit velocity="1.0" number="10" probability="0.4375"/>
+            <hit velocity="1.0" number="11" probability="0.4375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="13" probability="0.4375"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.5625"/>
+            <hit velocity="1.0" number="11" probability="0.5625"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3">
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <channel number="4">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="2" probability="0.9375"/>
+            <hit velocity="1.0" number="5" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.25"/>
+            <hit velocity="1.0" number="10" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.25"/>
+            <hit velocity="1.0" number="13" probability="0.75"/>
+            <hit velocity="1.0" number="14" probability="0.6875"/>
+            <hit velocity="1.0" number="15" probability="0.75"/>
+        </channel>
+        <channel number="6">
+            <hit velocity="1.0" number="0" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="8" probability="0.4375"/>
+            <hit velocity="1.0" number="12" probability="0.5"/>
+        </channel>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">1</songprobability>
+        <songprobability bar="17">1</songprobability>
+        <songprobability bar="18">1</songprobability>
+        <songprobability bar="19">1</songprobability>
+        <songprobability bar="20">1</songprobability>
+        <songprobability bar="21">1</songprobability>
+        <songprobability bar="22">1</songprobability>
+        <songprobability bar="23">1</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed10" number="9">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="1" probability="0.3125"/>
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="3" probability="0.5625"/>
+            <hit velocity="1.0" number="5" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="0.5625"/>
+            <hit velocity="1.0" number="7" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.4375"/>
+            <hit velocity="1.0" number="10" probability="0.4375"/>
+            <hit velocity="1.0" number="11" probability="0.4375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="13" probability="0.4375"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.5625"/>
+            <hit velocity="1.0" number="11" probability="0.5625"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3">
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <channel number="4">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="2" probability="0.9375"/>
+            <hit velocity="1.0" number="5" probability="0.3125"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.1875"/>
+            <hit velocity="1.0" number="9" probability="0.25"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="11" probability="0.25"/>
+            <hit velocity="1.0" number="13" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.4375"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">1</songprobability>
+        <songprobability bar="25">1</songprobability>
+        <songprobability bar="26">1</songprobability>
+        <songprobability bar="27">1</songprobability>
+        <songprobability bar="28">1</songprobability>
+        <songprobability bar="29">1</songprobability>
+        <songprobability bar="30">1</songprobability>
+        <songprobability bar="31">1</songprobability>
+    </pattern>
+    <pattern name="unnamed11" number="10">
+        <channel number="0">
+            <hit velocity="1.0" number="0" probability="1"/>
+            <hit velocity="1.0" number="2" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.375"/>
+            <hit velocity="1.0" number="8" probability="1"/>
+            <hit velocity="1.0" number="10" probability="0.625"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="1">
+            <hit velocity="1.0" number="1" probability="0.3125"/>
+            <hit velocity="1.0" number="2" probability="0.5625"/>
+            <hit velocity="1.0" number="3" probability="0.5625"/>
+            <hit velocity="1.0" number="5" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="0.5625"/>
+            <hit velocity="1.0" number="7" probability="0.5"/>
+            <hit velocity="1.0" number="9" probability="0.4375"/>
+            <hit velocity="1.0" number="10" probability="0.4375"/>
+            <hit velocity="1.0" number="11" probability="0.4375"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="13" probability="0.4375"/>
+            <hit velocity="1.0" number="14" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.5"/>
+        </channel>
+        <channel number="2">
+            <hit velocity="1.0" number="4" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.5625"/>
+            <hit velocity="1.0" number="11" probability="0.5625"/>
+            <hit velocity="1.0" number="12" probability="1"/>
+            <hit velocity="1.0" number="14" probability="0.4375"/>
+        </channel>
+        <channel number="3">
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <channel number="4">
+            <hit velocity="1.0" number="0" probability="0.875"/>
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="2" probability="1"/>
+            <hit velocity="1.0" number="3" probability="0.4375"/>
+            <hit velocity="1.0" number="4" probability="0.3125"/>
+            <hit velocity="1.0" number="5" probability="0.375"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="7" probability="0.5"/>
+            <hit velocity="1.0" number="8" probability="0.625"/>
+            <hit velocity="1.0" number="9" probability="0.75"/>
+            <hit velocity="1.0" number="10" probability="1"/>
+            <hit velocity="1.0" number="11" probability="1"/>
+            <hit velocity="1.0" number="12" probability="0.5"/>
+            <hit velocity="1.0" number="13" probability="0.5625"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+            <hit velocity="1.0" number="15" probability="0.375"/>
+        </channel>
+        <channel number="5">
+            <hit velocity="1.0" number="5" probability="0.3125"/>
+            <hit velocity="1.0" number="7" probability="0.1875"/>
+            <hit velocity="1.0" number="9" probability="0.25"/>
+            <hit velocity="1.0" number="11" probability="0.25"/>
+            <hit velocity="1.0" number="13" probability="0.5"/>
+            <hit velocity="1.0" number="15" probability="0.4375"/>
+        </channel>
+        <channel number="6"/>
+        <channel number="7">
+            <hit velocity="1.0" number="1" probability="0.5"/>
+            <hit velocity="1.0" number="3" probability="0.5"/>
+            <hit velocity="1.0" number="6" probability="1"/>
+            <hit velocity="1.0" number="9" probability="0.625"/>
+            <hit velocity="1.0" number="11" probability="0.5"/>
+            <hit velocity="1.0" number="14" probability="1"/>
+        </channel>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">1</songprobability>
+        <songprobability bar="25">1</songprobability>
+        <songprobability bar="26">1</songprobability>
+        <songprobability bar="27">1</songprobability>
+        <songprobability bar="28">1</songprobability>
+        <songprobability bar="29">1</songprobability>
+        <songprobability bar="30">1</songprobability>
+        <songprobability bar="31">1</songprobability>
+    </pattern>
+    <pattern name="unnamed12" number="11">
+        <channel number="0"/>
+        <channel number="1"/>
+        <channel number="2"/>
+        <channel number="3"/>
+        <channel number="4"/>
+        <channel number="5"/>
+        <channel number="6"/>
+        <channel number="7"/>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed13" number="12">
+        <channel number="0"/>
+        <channel number="1"/>
+        <channel number="2"/>
+        <channel number="3"/>
+        <channel number="4"/>
+        <channel number="5"/>
+        <channel number="6"/>
+        <channel number="7"/>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed14" number="13">
+        <channel number="0"/>
+        <channel number="1"/>
+        <channel number="2"/>
+        <channel number="3"/>
+        <channel number="4"/>
+        <channel number="5"/>
+        <channel number="6"/>
+        <channel number="7"/>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed15" number="14">
+        <channel number="0"/>
+        <channel number="1"/>
+        <channel number="2"/>
+        <channel number="3"/>
+        <channel number="4"/>
+        <channel number="5"/>
+        <channel number="6"/>
+        <channel number="7"/>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+    <pattern name="unnamed16" number="15">
+        <channel number="0"/>
+        <channel number="1"/>
+        <channel number="2"/>
+        <channel number="3"/>
+        <channel number="4"/>
+        <channel number="5"/>
+        <channel number="6"/>
+        <channel number="7"/>
+        <songprobability bar="0">0</songprobability>
+        <songprobability bar="1">0</songprobability>
+        <songprobability bar="2">0</songprobability>
+        <songprobability bar="3">0</songprobability>
+        <songprobability bar="4">0</songprobability>
+        <songprobability bar="5">0</songprobability>
+        <songprobability bar="6">0</songprobability>
+        <songprobability bar="7">0</songprobability>
+        <songprobability bar="8">0</songprobability>
+        <songprobability bar="9">0</songprobability>
+        <songprobability bar="10">0</songprobability>
+        <songprobability bar="11">0</songprobability>
+        <songprobability bar="12">0</songprobability>
+        <songprobability bar="13">0</songprobability>
+        <songprobability bar="14">0</songprobability>
+        <songprobability bar="15">0</songprobability>
+        <songprobability bar="16">0</songprobability>
+        <songprobability bar="17">0</songprobability>
+        <songprobability bar="18">0</songprobability>
+        <songprobability bar="19">0</songprobability>
+        <songprobability bar="20">0</songprobability>
+        <songprobability bar="21">0</songprobability>
+        <songprobability bar="22">0</songprobability>
+        <songprobability bar="23">0</songprobability>
+        <songprobability bar="24">0</songprobability>
+        <songprobability bar="25">0</songprobability>
+        <songprobability bar="26">0</songprobability>
+        <songprobability bar="27">0</songprobability>
+        <songprobability bar="28">0</songprobability>
+        <songprobability bar="29">0</songprobability>
+        <songprobability bar="30">0</songprobability>
+        <songprobability bar="31">0</songprobability>
+    </pattern>
+</song>

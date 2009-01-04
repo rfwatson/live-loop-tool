@@ -1,0 +1,235 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf270
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red191\green0\blue0;\red0\green0\blue191;\red0\green115\blue0;
+\red96\green96\blue96;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 (\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 // input = 16;   \cf0 \
+\cf2 // output = 0;	\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf3 SynthDef\cf0 (\cf4 \\mangler_dryout\cf0 , \{\
+	\cf3 |out=0,in=16,mul=1,gate=1|\cf0 \
+\
+	\cf3 Out\cf0 .ar(out,\
+		\cf3 Gate\cf0 .ar(\
+			\cf3 In\cf0 .ar(in,2).madd(mul),\
+			gate\
+	));\
+\
+\}).load(s);\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 // base synth - is this necessary? Maybe not but it makes me certain I know where things are\cf0 \
+\cf2 // in the order of execution.\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf3 SynthDef\cf0 (\cf4 \\manglerBase\cf0 , \{\
+	\cf3 |out=24,in=16|\cf0 \
+	\cf3 var\cf0  input;\
+	input = \cf3 In\cf0 .ar(in, 2);\
+	\cf3 Out\cf0 .ar(out,input);\
+\}).load(s);\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 // A simple pitch shifter - weirdly effective on drums\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf3 SynthDef\cf0 (\cf4 \\mangle0\cf0 , \{\
+	\cf3 |out=0,in=24,ratio=2,gate=0|\cf0 \
+	\
+	\cf3 var\cf0  input;\
+	input = \cf3 In\cf0 .ar(in,2);\
+	\
+	\cf3 Out\cf0 .ar(out,\
+		\cf3 Gate\cf0 .ar(\
+			\cf3 PitchShift\cf0 .ar(\
+				in: input,\
+				pitchRatio: ratio\
+			),\
+		gate\
+	));\
+\}).load(s);\
+\
+\
+\cf3 SynthDef\cf0 (\cf4 \\stutter1\cf0 , \{\
+	\cf3 |out=0,in=24,rptfreq=0,rectrigger=0,tempo=130,gate=0|\cf0 \
+	\
+	\cf3 var\cf0  input,recbuf,trigs,phase;\
+	\
+	input = \cf3 In\cf0 .ar(in,2);\
+	trigs = [ 3, 4, 6, 8, 16, 32, 64 ];\
+	recbuf = \cf3 Buffer\cf0 .alloc(s, s.sampleRate * 60, 2).bufnum;\
+	\
+	\cf3 BufWr\cf0 .ar(\
+		input, \
+		bufnum: recbuf,\
+		loop: 1,\
+		phase: \cf3 Phasor\cf0 .ar(\
+			rate: \cf3 BufRateScale\cf0 .kr(recbuf),\
+			start: 0,\
+			end: \cf3 BufFrames\cf0 .ir(recbuf),\
+			resetPos: 0,\
+			trig: rectrigger\
+		)\
+	);\
+	\
+	\cf3 Out\cf0 .ar(out,\
+		\cf3 Gate\cf0 .ar(	\
+			\cf3 BufRd\cf0 .ar(\
+				bufnum: recbuf,\
+				loop: 1,\
+				numChannels: 2,\
+				phase: \cf3 Phasor\cf0 .ar(\
+					\cf2 // we want to stutter the sample on either the LFO period, OR the start of a new bar\cf0 \
+					\cf2 // this helps to keep it sounding as 'in time' as possible\cf0 \
+					\cf2 // this equation triggers on either one\cf0 \
+					trig: (((\cf3 LFPulse\cf0 .kr((tempo/60) * \cf3 Select\cf0 .kr(rptfreq,trigs))) + rectrigger) > 0),\
+					end: \cf3 BufFrames\cf0 .ir(recbuf)\
+				),\
+				interpolation: 4\
+			),\
+			gate\
+	));	\
+\}).load(s);\
+\
+\
+\
+\cf3 SynthDef\cf0 (\cf4 \\reverser\cf0 , \{\
+	\cf3 |out=0,in=24,pulsebar=0,pulseQ=0,rate=1,gate=0|\cf0 \
+	\
+	\cf3 var\cf0  input,buf,phase;\
+	\
+	input = \cf3 In\cf0 .ar(in,2);\
+	buf = \cf3 Buffer\cf0 .alloc(s, s.sampleRate * 5, 2).bufnum;\
+\
+	phase = \cf3 Phasor\cf0 .ar(\
+			start: 0,\
+			end: \cf3 BufFrames\cf0 .ir(buf),\
+			rate: \cf3 BufRateScale\cf0 .kr(buf)\
+	);\
+	\
+	\cf3 BufWr\cf0 .ar(\
+		input,\
+		bufnum: buf,\
+		loop: 1,\
+		phase: phase\
+	);\
+	\
+	\cf3 Out\cf0 .ar(out,\
+		\cf3 Gate\cf0 .ar(	\
+			\cf3 BufRd\cf0 .ar(\
+				bufnum: buf,\
+				numChannels: 2,\
+				loop: 1,\
+				phase: \cf3 Phasor\cf0 .ar(\
+					rate: \cf3 BufRateScale\cf0 .kr(buf) * (rate * -1.0),\
+					start: phase,\
+					end: \cf3 BufFrames\cf0 .ir(buf)\
+			)),\
+			gate\
+	));\
+		\
+\}).load(s);\
+\
+\
+\cf3 SynthDef\cf0 (\cf4 \\slider\cf0 , \{\
+	\cf3 |out=0,in=24,cutoff=300,gate=0|\cf0 \
+	\
+	\cf3 var\cf0  input;\
+	\
+	input = \cf3 In\cf0 .ar(in,2);\
+\
+	\cf2 // Moog resonant filter tends to attenuate signal so I'm giving it some extra\cf0 \
+	\cf3 Out\cf0 .ar(out, \
+		\cf3 Gate\cf0 .ar(\
+			4 * \cf3 MoogFF\cf0 .ar(input, cutoff, gain: 3),\
+			gate\
+	));\
+					\
+\}).load(s);\
+\
+\
+\cf3 SynthDef\cf0 (\cf4 \\r_synth\cf0 , \{\
+	\cf3 |out=0,gate=0,pulsebar=0,pulseT,choose=0,tempo=130|\cf0 \
+	\
+	\cf3 var\cf0  trigs,pulse,freqs;\
+	\
+	\cf2 // on demand\cf0 \
+	freqs = \cf3 Drand\cf0 ([ 150, 200, 300, 500, 1000, 2000, 1500, 700 ], \cf3 inf\cf0 );\
+	pulse = \cf3 Saw\cf0 .ar(\cf3 Demand\cf0 .kr(pulseT, 0, freqs));\
+	\
+	trigs = [ 2, 4, 8, 16 ];\
+	\
+	\cf3 Out\cf0 .ar(out,\
+		\cf3 Pan2\cf0 .ar(	\
+			\cf3 Gate\cf0 .ar(\
+				(2 * pulse) * \cf3 LFPulse\cf0 .ar(\
+					(tempo/60) * \cf3 Select\cf0 .kr(choose,trigs)\
+				),\
+				gate\
+			\
+	)));\
+	\
+\
+					\
+\}).load(s);\
+\
+\
+\cf3 MIDIIn\cf0 .connect;\
+\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 // Create a new Probability based drum machine and Buffer Manager \cf0 \
+\cf2 // (with pre-loaded samples and song)\cf0 \
+// ~drums = \cf3 Improbable\cf0 .new(\cf3 BufferManager\cf0 .new.load, out: 16).read(\cf5 "test1.xml"\cf0 );\
+\
+\
+\cf2 // Formal definitions of each effect module. This step is a necessary abstraction, as each effect\cf0 \
+\cf2 // must be accessible via a standard interface in order to fit easily into the GUI and MIDI control systems \cf0 \
+~definitions = [\
+	\cf3 IdentityDictionary\cf0 [\
+		\cf4 \\synthdef\cf0  -> \{ \cf3 Synth\cf0 (\cf4 \\mangle0\cf0 ) \},\
+		\cf4 \\name\cf0  -> \cf5 "PitchShift"\cf0 ,\
+		\cf4 \\midinote\cf0  -> 60,\
+		\cf4 \\param\cf0  -> \cf4 \\ratio\cf0 ,\
+		\cf4 \\spec\cf0  -> \cf3 ControlSpec\cf0 (0.5, 4, \cf4 \\linear\cf0 ),\
+		\cf4 \\cutdry\cf0  -> \cf3 true\cf0 \
+	],\
+	\cf3 IdentityDictionary\cf0 [\
+		\cf4 \\synthdef\cf0  -> \{ \cf3 Synth\cf0 (\cf4 \\stutter1\cf0 ).map(\cf4 \\rectrigger\cf0 , ~drums.pulseQ, \cf4 \\tempo\cf0 , ~drums.tempoBus) \},\
+		\cf4 \\name\cf0  -> \cf5 "Stutter 1"\cf0 ,\
+		\cf4 \\midinote\cf0  -> 62,\
+		\cf4 \\param\cf0  -> \cf4 \\rptfreq\cf0 ,\
+		\cf4 \\spec\cf0  -> \cf3 ControlSpec\cf0 (0, 6, \cf4 \\linear\cf0 ),\
+		\cf4 \\cutdry\cf0  -> \cf3 true\cf0 \
+	],\
+	\cf3 IdentityDictionary\cf0 [\
+		\cf4 \\synthdef\cf0  -> \{ \cf3 Synth\cf0 (\cf4 \\reverser\cf0 ).map(\cf4 \\pulsebar\cf0 , ~drums.pulsebar, \cf4 \\pulseQ\cf0 , ~drums.pulseQ) \},\
+		\cf4 \\name\cf0  -> \cf5 "Reverser"\cf0 ,\
+		\cf4 \\midinote\cf0  -> 64,\
+		\cf4 \\param\cf0  -> \cf4 \\rate\cf0 ,\
+		\cf4 \\spec\cf0  -> \cf3 ControlSpec\cf0 (1, 10, \cf4 \\linear\cf0 ),\
+		\cf4 \\cutdry\cf0  -> \cf3 true\cf0 \
+	],\
+	\cf3 IdentityDictionary\cf0 [\
+		\cf4 \\synthdef\cf0  -> \{ \cf3 Synth\cf0 (\cf4 \\slider\cf0 ) \},\
+		\cf4 \\name\cf0  -> \cf5 "Slider"\cf0 ,\
+		\cf4 \\midinote\cf0  -> 65,\
+		\cf4 \\param\cf0  -> \cf4 \\cutoff\cf0 ,\
+		\cf4 \\spec\cf0  -> \cf3 ControlSpec\cf0 (50, 20000, \cf4 \\exp\cf0 ),\
+		\cf4 \\cutdry\cf0  -> \cf3 true\cf0 \
+	],\
+	\cf3 IdentityDictionary\cf0 [\
+		\cf4 \\synthdef\cf0  -> \{ \cf3 Synth\cf0 (\cf4 \\r_synth\cf0 ).map(\cf4 \\pulsebar\cf0 , ~drums.pulsebar, \cf4 \\pulseT\cf0 , ~drums.pulseT, \cf4 \\tempo\cf0 , ~drums.tempoBus) \},\
+		\cf4 \\name\cf0  -> \cf5 "Synth"\cf0 ,\
+		\cf4 \\midinote\cf0  -> 67,\
+		\cf4 \\param\cf0  -> \cf4 \\choose\cf0 ,\
+		\cf4 \\spec\cf0  -> \cf3 ControlSpec\cf0 (0, 4, \cf4 \\linear\cf0 ),\
+		\cf4 \\cutdry\cf0  -> \cf3 false\cf0 \
+	]\
+];\
+)\
+}

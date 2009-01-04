@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf430
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red191\green0\blue0;\red0\green0\blue0;\red0\green0\blue191;
+\red96\green96\blue96;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs18 \cf2 // By Rob Watson\cf3 \
+\cf2 // http://github.com/rfwatson\cf3 \
+\
+\
+\cf2 // Released under the GNU General Public License.\cf3 \
+\
+\cf2 // This program is free software; you can redistribute it and/or modify it under\cf3 \
+\cf2 // the terms of the GNU General Public License as published by the Free Software\cf3 \
+\cf2 // Foundation; either version 2 of the License, or (at your option) any later\cf3 \
+\cf2 // version.\cf3 \
+\
+\cf2 // This program is distributed in the hope that it will be useful, but WITHOUT\cf3 \
+\cf2 // ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS \cf3 \
+\cf2 // FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\cf3 \
+\
+\cf2 // You should have received a copy of the GNU General Public License along with \cf3 \
+\cf2 // this program; if not, write to the Free Software Foundation, Inc., 59 Temple\cf3 \
+\cf2 // Place, Suite 330, Boston, MA 02111-1307 USA\cf3 \
+\
+\
+\cf2 // USAGE\cf3 \
+\
+\cf2 ////////////////////////////////////////////////////////////////////////////////\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 // You need to install the XML quark - see:                                   //\cf3 \
+\cf2 // http://www.nabble.com/XML-quark-td15864495.html                            //\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 // or execute:                                                                //\cf3 \
+\cf2 // Quarks.checkoutAll; Quarks.install("XML");                                 //\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 // (you will need SVN installed...)                                           //\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 // Also install MoogFF if running older build of SC:                          //\cf3 \
+\cf2 // http://lists.create.ucsb.edu/pipermail/sc-users/2007-September/036525.html //           \cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 // You may need to copy the .sc class files to your Extensions folder         //\cf3 \
+\cf2 // and CTRL-K to recompile your class lib.                                    //\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 // Once you have done that, select this entire file and press ENTER.          //\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 // Enjoy :)                                                                   //\cf3 \
+\cf2 //                                                                            //\cf3 \
+\cf2 ////////////////////////////////////////////////////////////////////////////////\cf3 \
+\
+s = \cf4 Server\cf3 .local.boot;\
+~path = \cf4 Document\cf3 .current.dir;\
+\
+\cf2 // create a buffer manager (and load a sample kit)\cf3 \
+~bufman = \cf4 BufferManager\cf3 .new.loadkit((~path ++ \cf5 "/examplekit.xml"\cf3 ).standardizePath, ~path ++ \cf5 "/sounds/"\cf3 );\
+\
+\cf2 // create a probabilistic drum machine\cf3 \
+~drums = \cf4 Improbable\cf3 .new(~bufman, out: 16).loadsong((~path ++ \cf5 "/examplesong.xml"\cf3 ).standardizePath);\
+\
+\cf2 // load the fx synthdefs\cf3 \
+(~path ++ \cf5 "/definitions.rtf"\cf3 ).standardizePath.load;\
+\
+\cf2 // create a mangler\cf3 \
+~mangler = \cf4 Mangler\cf3 .new(~definitions);\
+\
+\cf2 // make sure the drum machine is before the mangler\cf3 \
+~drums.group.moveBefore(~mangler.group);\
+\
+)\
+\
+}

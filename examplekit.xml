@@ -1,0 +1,34 @@
+<buffer-kit>
+    <buffer>
+        <path>VEC2 Bassdrums UK Tran#4E5F.wav</path>
+        <kitnum>0</kitnum>
+    </buffer>
+    <buffer>
+        <path>VEC2 Snares 003.wav</path>
+        <kitnum>1</kitnum>
+    </buffer>
+    <buffer>
+        <path>VEC2 Claps 016.wav</path>
+        <kitnum>2</kitnum>
+    </buffer>
+    <buffer>
+        <path>VEC2 Percussion 15.wav</path>
+        <kitnum>4</kitnum>
+    </buffer>
+    <buffer>
+        <path>Closed hat 5.wav</path>
+        <kitnum>3</kitnum>
+    </buffer>
+    <buffer>
+        <path>Open hat 7.wav</path>
+        <kitnum>5</kitnum>
+    </buffer>
+    <buffer>
+        <path>RIDE 4.wav</path>
+        <kitnum>6</kitnum>
+    </buffer>
+    <buffer>
+        <path>Off Licence 2.wav</path>
+        <kitnum>7</kitnum>
+    </buffer>
+</buffer-kit>
